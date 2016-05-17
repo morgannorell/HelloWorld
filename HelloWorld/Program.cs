@@ -17,6 +17,10 @@ namespace HelloWorld
             Console.WriteLine("Hello {0}!", name);
             Console.WriteLine();
             Console.WriteLine("Hej då {0} och ha en bra dag.", name);
+            Console.Write("Ange din ålder: ");
+            string age;
+            age = Console.ReadLine();
+            Console.WriteLine("{0} är {1} år", name, age);
             Console.ReadLine();
         }
     }
